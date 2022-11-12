@@ -1,0 +1,17 @@
+{
+    "name": "user/ipt10-registration-login",
+    "autoload": {
+        "psr-4": {
+            "User\\Ipt10RegistrationLogin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bmarcko",
+            "email": "bobbymarckocruz@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
