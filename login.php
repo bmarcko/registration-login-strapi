@@ -11,7 +11,9 @@ $password = $_POST['password'];
 
 $result = $client->login($identifier,$password);
 
-var_dump($result->getStatusCode());
+/* var_dump($result->getStatusCode());
 var_dump($result->getReasonPhrase());
 var_dump($result->getProtocolVersion());
-var_dump($result->getBody()->getContents());
+var_dump($result->getBody()->getContents()); */
+
+header('Location: login-success.php?username=' . $username . '&email=' . $email);

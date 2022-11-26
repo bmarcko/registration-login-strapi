@@ -12,7 +12,9 @@ $password = $_POST['password'];
 
 $result = $client->register($username,$email,$password);
 
-var_dump($result->getStatusCode());
+/* var_dump($result->getStatusCode());
 var_dump($result->getReasonPhrase());
 var_dump($result->getProtocolVersion());
-var_dump($result->getBody()->getContents());
+var_dump($result->getBody()->getContents()); */
+
+header('Location: register-success.php');

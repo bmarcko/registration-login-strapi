@@ -2,7 +2,7 @@
     "name": "user/ipt10-registration-login",
     "autoload": {
         "psr-4": {
-            "User\\Ipt10RegistrationLogin\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

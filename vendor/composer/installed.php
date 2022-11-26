@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'user/ipt10-registration-login',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e1e024c76e265d79a41db0499bcf01a1abed1619',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -101,9 +101,9 @@
             'dev_requirement' => false,
         ),
         'user/ipt10-registration-login' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e1e024c76e265d79a41db0499bcf01a1abed1619',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

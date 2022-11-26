@@ -13,7 +13,7 @@
 
         <form method="POST" action="login.php">
             <div class="form-group row">
-                <label for="identifier" class="col-sm-2 col-form-label">Identifier:</label>
+                <label for="identifier" class="col-sm-2 col-form-label">Email:</label>
                 <div class="col-sm-4">
                 <input type="text" class="form-control" id="identifier" name="identifier" required>
                 </div>

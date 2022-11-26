@@ -12,9 +12,9 @@
 
         <form method="POST" action="register.php">
             <div class="form-group row">
-                <label for="Username" class="col-sm-2 col-form-label">Username:</label>
+                <label for="username" class="col-sm-2 col-form-label">Username:</label>
                 <div class="col-sm-4">
-                <input type="text" class="form-control" id="Username" name="Username" required>
+                <input type="text" class="form-control" id="username" name="username" required>
                 </div>
             </div>
             <div class="form-group row">
